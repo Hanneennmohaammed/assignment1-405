@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <div>
+        <h1>Haneen mohammed ALmahayawi</h1>
+        <p>Information Technology Student</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="labs.html">Labs & Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <aside class="sidebar">
+
+        <div class="avatar">HM</div>
+
+        <h2>Contact Information</h2>
+
+        <p><strong>University Email:</strong></p>
+
+        <p>
+            <a href="mailto:HALMAHAYAWI@stu.kau.edu.sa">
+               HALMAHAYAWI@stu.kau.edu.sa
+            </a>
+        </p>
+
+        <p><strong>GitHub:</strong></p>
+
+        <a href="https://github.com/Hanneennmohaammed"
+           target="_blank">
+            My GitHub Profile
+        </a>
+
+    </aside>
+
+    <div class="content">
+
+        <section>
+
+            <h2>Contact Me</h2>
+
+            <p>
+                Feel free to contact me by completing the
+                following form.
+            </p>
+
+            <form action="https://formsubmit.co/HALMAHAYAWI@stu.kau.edu.sa"
+                  method="POST">
+
+                <label for="name">Name</label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your name"
+                       required>
+
+                <label for="email">Email</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email"
+                       required>
+
+                <label for="message">Message</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          placeholder="Write your message"
+                          required></textarea>
+
+                <p><strong>Message Type:</strong></p>
+
+                <div class="radio-group">
+
+                    <label>
+                        <input type="radio"
+                               name="message_type"
+                               value="Inquiry"
+                               checked>
+                        Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="message_type"
+                               value="Feedback">
+                        Feedback
+                    </label>
+
+                </div>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Haneen mohammed  | CPIT405 Portfolio</p>
+</footer>
